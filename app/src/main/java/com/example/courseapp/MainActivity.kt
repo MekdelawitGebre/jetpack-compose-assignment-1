@@ -5,6 +5,7 @@ import CourseListScreen
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.material3.MaterialTheme
 import com.example.courseapp.ui.theme.CourseAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -16,14 +17,14 @@ class MainActivity : ComponentActivity() {
                 title = "Object-Oriented Programming",
                 code = "SE201",
                 creditHours = 3,
-                description = "Covers the principles of object-oriented design and development using languages like Java or Kotlin.",
+                description = "Covers the principles of object-oriented design and development.",
                 prerequisites = listOf("CS101")
             ),
             Course(
                 title = "Data Structures and Algorithms",
                 code = "SE202",
                 creditHours = 4,
-                description = "Explores core data structures (lists, trees, graphs) and algorithms (sorting, searching) essential for software development.",
+                description = "Explores core data structures and algorithms essential for software development.",
                 prerequisites = listOf("SE201", "MATH101")
             ),
             Course(
